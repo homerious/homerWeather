@@ -261,8 +261,7 @@ angular.module('starter.services', [])
     };
 
   })//发送网络请求获得气象数据
-.
-factory('stringSearch', function () {
+  .factory('stringSearch', function () {
   var stringCollection = [
     {name: '北京', string: 'beijing'},{name: '天津', string: 'tianjin'},{name: '重庆', string: 'chongqing'},{name: '上海', string: 'shanghai'},
     {name: '香港', string: 'hongkong'},{name: '澳门', string: 'macau'},

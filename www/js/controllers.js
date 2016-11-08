@@ -8,7 +8,7 @@ angular.module('starter.controllers', ['ionic'])
   $scope.today=timeData.getFullYear()+'/'+month+'/'+timeData.getDate()+' '+weekday[toweekday];
   $scope.currentDay=[];
   for(var i=0;i<5;i++){
-    $scope.currentDay.push(weekday[toweekday+1+i]);
+    $scope.currentDay.push(weekday[toweekday+8+i]);
   }
   $scope.$on('$ionicView.enter', function(e) {
     $scope.Cities=Cities.initCities();
